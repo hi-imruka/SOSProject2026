@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://burjpum4id0jt"]
+
+[ext_resource type="Script" uid="uid://bvfymupple1m2" path="res://player_controller.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://dx7aihqyvqovm" path="res://Assets/RF_Catacombs_v1.0/candleA_01.png" id="2_6t5aa"]
+
+[node name="Player" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_cvnsp")
+
+[node name="CandleA01" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(11.9999695, -5)
+scale = Vector2(18.071428, 18.071428)
+texture = ExtResource("2_6t5aa")
